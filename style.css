@@ -473,6 +473,7 @@ select.inputstyle4 {
     display: grid;
     grid-template-rows: 1fr 1fr;
     height: 60px;
+    row-gap: 20px;
 }
 
 /* APPLY NOW BUTTON */
