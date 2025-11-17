@@ -259,6 +259,9 @@ section.informationstyle {
     border: none;
     background-color: #E6ECF5;
     border-radius: 3px;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .inputstyle3-phone {
@@ -268,6 +271,12 @@ section.informationstyle {
     border: none;
     background-color: #E6ECF5;
     border-radius: 3px;
+    margin-top: 3px;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 /*  INPUT RIGTH PART  */
@@ -304,7 +313,8 @@ input.inputrightstyle3 {
     border-radius: 3px;
     padding: 10px;
     resize: none;
-    font-family: "Poppins", sans-serif;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
     font-size: 18px;
 }
 
