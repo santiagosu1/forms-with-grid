@@ -95,22 +95,80 @@
 .formcontainer2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 25px;                
+    column-gap: 55px;                
     background-color: #F0ECE9;
     height: 600px;
     width: 1050px;
-    justify-content: center;      
-    align-content: center;
-    padding-top: 40px;
+    padding: 50px;
+    padding-left: 70px;
+    place-items: center;
     border-radius: 14px;
 }
 
 .mockup2image {
     width: auto;
-    height: 350px;
+    height: 450px;
 }
-div.mockup2image {
+
+.contactuscontainer {
     display: grid;
-    align-items: center;
+    grid-template-rows: 1fr;
+    width: 320px;
+    row-gap: 40px;
+    place-items: start;
+    color: rgb(1, 1, 110);
 }
+
+.inputcontainerstyle2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 30px;
+}
+
+.inputstyle2 {
+
+    width: 210px;
+    height: 62px;
+    border: none;
+    border-bottom: 3px solid  rgb(1, 1, 110);
+    outline: none;
+    background-color:transparent ;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: rgb(133, 132, 132);
+}
+.contactusbutton {
+    width: 170px;
+    height: 35px;
+    background-color: rgb(1, 1, 110);
+    color: #F0ECE9;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.informationstyle {
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 250px;
+    align-self: end;
+    place-items: start;
+    /* row-gap: 10px; */
+    color: rgb(1, 1, 110);
+    
+}
+
+section.informationstyle {
+    padding-top: 7px;
+}
+
+.logostyle {
+
+    display: grid;
+    height: 180px;
+    grid-auto-flow: column;       /* <-- Hace que los iconos vayan uno al lado del otro */
+    justify-content: start;       /* Opcional: controla alineación horizontal */             /* <-- ESTA LÍNEA los baja al fondo de la celda */
+    gap: 10px;    
+}
+
 
