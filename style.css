@@ -103,6 +103,7 @@
     padding-left: 70px;
     place-items: center;
     border-radius: 14px;
+    row-gap: 20px;
 }
 
 .mockup2image {
@@ -153,7 +154,6 @@
     width: 250px;
     align-self: end;
     place-items: start;
-    /* row-gap: 10px; */
     color: rgb(1, 1, 110);
     
 }
@@ -166,9 +166,156 @@ section.informationstyle {
 
     display: grid;
     height: 180px;
-    grid-auto-flow: column;       /* <-- Hace que los iconos vayan uno al lado del otro */
-    justify-content: start;       /* Opcional: controla alineación horizontal */             /* <-- ESTA LÍNEA los baja al fondo de la celda */
-    gap: 10px;    
+    grid-auto-flow: column;
+    justify-content: start;
 }
 
 
+/* Form Mockup 3 */
+
+.mockup3container {
+    display: grid;
+    place-items: center;
+    min-height: 405px;
+    padding: 40px 0;
+    background-color: rgb(202, 201, 201);
+    font-family: "Poppins", sans-serif;
+
+}
+
+.formcontainer3 {
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 55px;                
+    background-color: white;
+    height: 600px;
+    width: 950px;
+    padding: 50px;
+    padding-left: 70px;
+    align-items: start;
+    border-radius: 10px;
+}
+
+
+.formcontainerstyle3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+}
+/* INPUT LEFT PART */
+.inputleftcontainerstyle3 {
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    height: 350px;
+}
+
+.inputleftrowsstyle3 {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.phonenumberstyle3 {
+
+    display: grid;
+    grid-template-rows: 1 fr;
+    
+}
+
+.inputstyle3 {
+    width: 390px;
+    height: 45px;
+    padding-left: 10px;
+    border: none;
+    background-color: #E6ECF5;
+    border-radius: 3px;
+}
+
+.inputstyle3-phone {
+    width: 344px;
+    height: 45px;
+    padding-left: 10px;
+    border: none;
+    background-color: #E6ECF5;
+    border-radius: 3px;
+}
+
+/*  INPUT RIGTH PART  */
+
+.inputrightcontainerstyle3 {
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 200px;
+    row-gap: 20px;
+}
+
+.inputrightstyle3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100px;
+    
+}
+
+input.inputrightstyle3 {
+    display: grid;
+    grid-template-rows: 1fr;
+    place-items: start;
+    height: 170px;
+    margin-top: 20px;
+}
+
+.textareaMessage {
+    width: 420px;
+    height: 170px;
+    background-color: #E6ECF5;
+    border: none;
+    margin-top: 23px;
+    border-radius: 3px;
+    padding: 10px;
+    resize: none;
+    font-family: "Poppins", sans-serif;
+}
+
+label {
+    height: 10px;
+    font-size: 17px;
+}
+
+.booknowbutton {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.buttonnowstyle {
+    display: grid;
+    width: 830px;
+    grid-template-columns: 1fr 1fr;
+    place-items: end;
+} 
+
+.divbuttonnowstyle {    
+    display: grid;
+    place-items: end;
+    width: 785px;
+
+}
+input.divbuttonnowstyle {
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color:#3f80f7;
+    text-align: end;
+    color: white;
+    font-size: 14px;
+}
