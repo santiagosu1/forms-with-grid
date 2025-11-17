@@ -4,6 +4,27 @@
     padding: 0px;
 }
 
+nav {
+    display: grid;
+    grid-template-rows: 1fr;
+    height: 100px;
+    background-color: #4655E6 ;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+
+}
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    list-style: none;
+
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+}   
+
 /* Form Mockup 1 */
 .mockup1container {
     display: grid;
@@ -70,13 +91,15 @@
 }
 
 .submitbutton {
-    width: 120px;
-    height: 45px;
+    width: 140px;
+    height: 55px;
     background-color: white;
     color: rgb(79, 79, 250);
     border-radius: 8px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 17px;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
 
 }
 
@@ -109,6 +132,8 @@
 .mockup2image {
     width: auto;
     height: 450px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 .contactuscontainer {
@@ -195,6 +220,8 @@ section.informationstyle {
     padding-left: 70px;
     align-items: start;
     border-radius: 10px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
 }
 
 
@@ -278,6 +305,7 @@ input.inputrightstyle3 {
     padding: 10px;
     resize: none;
     font-family: "Poppins", sans-serif;
+    font-size: 18px;
 }
 
 label {
@@ -344,6 +372,8 @@ input.divbuttonnowstyle {
     border-radius: 20px;
     border: 2px solid rgba(214, 178, 68, 0.703);
     row-gap: 10px;
+    font-family: "Poppins", sans-serif;
+    
 }
 
 .formcontainerstyle4 {
