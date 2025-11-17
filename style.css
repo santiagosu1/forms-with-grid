@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Form Mockup 1 */
+.mockup1container {
+    display: grid;
+    place-items: center;
+    min-height: 405px;
+    background-color: rgb(32, 32, 246);
+    padding: 40px 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.formcontainer {
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 25px;                
+    background-color: #4655E6;
+    height: 600px;
+    width: 800px;
+    justify-content: center;      
+    align-content: center;
+    padding-top: 40px;
+}
+
+.headerdisplay {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    row-gap: 10px;
+    color: white;
+    font-size: 23px;
+}
+
+.formsdisplay {
+    display: grid;
+    align-items: center;
+    row-gap: 35px;
+
+}
+
+.inputstextcontainer {
+    display: grid;
+    row-gap: 20px;
+}
+
+.formsdisplay-2 {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 30px;
+    width: auto;
+    height: 42px;
+}
+
+.formsdisplay-3 {
+    display: grid;
+    width: auto;
+    height: 42px;
+}
+
+.inputstyle {
+    
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: "Poppins", sans-serif;
+}
+
+.submitbutton {
+    width: 120px;
+    height: 45px;
+    background-color: white;
+    color: rgb(79, 79, 250);
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+
+/* Form Mockup 2 */
+
+.mockup2container {
+    display: grid;
+    place-items: center;
+    min-height: 405px;
+    padding: 40px 0;
+    background-color: rgb(123, 213, 183);
+    font-family: "Poppins", sans-serif;
+}
+
+.formcontainer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 25px;                
+    background-color: #F0ECE9;
+    height: 600px;
+    width: 1050px;
+    justify-content: center;      
+    align-content: center;
+    padding-top: 40px;
+    border-radius: 14px;
+}
+
+.mockup2image {
+    width: auto;
+    height: 350px;
+}
+div.mockup2image {
+    display: grid;
+    align-items: center;
+}
+
